@@ -53,5 +53,6 @@ AC_FUNC_STRFTIME
 AC_CHECK_FUNCS([ftime getpass gettimeofday inet_ntoa memmove memset mkdir socket strchr strrchr strstr strtol])
 
 AC_CONFIG_FILES([Makefile
+		include/Makefile
 		src/Makefile])
 AC_OUTPUT
