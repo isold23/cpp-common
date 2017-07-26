@@ -1,5 +1,5 @@
 AC_PREREQ(2.59)
-AC_INIT(cpp-common, 1.0.0.0, jianghai@staff.sina.com.cn)
+AC_INIT(cpp-common, 1.0.0.0, isold.wang@qq.com)
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADER([config.h])
 
