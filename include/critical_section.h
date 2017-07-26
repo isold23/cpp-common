@@ -16,6 +16,7 @@
 #include <memory.h>
 #endif
 #include "define.h"
+#include <stdint.h>
 #include <string>
 
 typedef unsigned long   timeout_t;

@@ -21,7 +21,6 @@ time_base.cpp
 
 AUTOMAKE_OPTIONS=foreign
 AM_CXXFLAGS = -fPIC
-INCLUDES= -I$(top_srcdir)/include
+INCLUDES= -I$(top_srcdir)/inc
 libdir=$(top_srcdir)/lib
 lib_LIBRARIES = libcommon.a
-#common_a_LDADD = -lssl

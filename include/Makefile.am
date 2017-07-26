@@ -1,4 +1,4 @@
-cpp_commondir = ${includedir}
+cpp_commondir = ${top_srcdir}/inc
 cpp_common_HEADERS = define.h \
 md5.h \
 list.h \
@@ -30,4 +30,5 @@ base64.h \
 time_base.h \
 base_encrypt.h \
 convert_charset.h \
-file_lock.h
+file_lock.h \
+file_stream.h
